@@ -1,0 +1,58 @@
+{
+  "default_model": "juggernautXL_v8Rundiffusion.safetensors",
+  "default_refiner": "None",
+  "default_refiner_switch": 1,
+  "default_loras": [
+    [
+      true,
+      "sd_xl_offset_example-lora_1.0.safetensors",
+      1.0
+    ],
+    [
+      true,
+      "None",
+      1.0
+    ],
+    [
+      true,
+      "None",
+      1.0
+    ],
+    [
+      true,
+      "None",
+      1.0
+    ],
+    [
+      true,
+      "None",
+      1.0
+    ]
+  ],
+  "default_cfg_scale": 4.0,
+  "default_sample_sharpness": 3.0,
+  "default_sampler": "dpmpp_2m_sde_gpu",
+  "default_scheduler": "karras",
+  "default_performance": "Quality",
+  "default_prompt": "a close up of a metallic [[]] on a white background, a 3D render, trending on pexels, holography, in style of lisa frank, retro wave, 3 d render of jerma 9 8 5, 3 d render beeple",
+  "default_prompt_negative": "",
+  "default_styles": [
+
+  ],
+  "default_max_image_number": "350",
+  "default_aspect_ratio": "1152*1152",
+  "checkpoint_downloads": {
+    "juggernautXL_v8Rundiffusion.safetensors": "https://huggingface.co/lllyasviel/fav_models/resolve/main/fav/juggernautXL_v8Rundiffusion.safetensors"
+  },
+  "embeddings_downloads": {},
+  "lora_downloads": {
+    "sd_xl_offset_example-lora_1.0.safetensors": "https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0/resolve/main/sd_xl_offset_example-lora_1.0.safetensors"
+  },
+  "previous_default_models": [
+    "juggernautXL_version8Rundiffusion.safetensors",
+    "juggernautXL_version7Rundiffusion.safetensors",
+    "juggernautXL_v7Rundiffusion.safetensors",
+    "juggernautXL_version6Rundiffusion.safetensors",
+    "juggernautXL_v6Rundiffusion.safetensors"
+  ]
+}
