@@ -435,7 +435,7 @@ default_image_prompt_advanced_checkbox = get_config_item_or_set_default(
 )
 default_max_image_number = get_config_item_or_set_default(
     key='default_max_image_number',
-    default_value=500,
+    default_value=400,
     validator=lambda x: isinstance(x, int) and x >= 1,
     expected_type=int
 )
